@@ -19,5 +19,37 @@ class BukuSeeder extends Seeder
         $buku->synopsis = 'ini adalah.....';
         $buku->status = 1;
         $buku->save();
+
+        $buku = new Buku;
+        $buku->judul = 'Belajar Ngoding';
+        $buku->jumlah_halaman= 100;
+        $buku->penerbit = 'Gramedia Pustaka';
+        $buku->synopsis = 'ini adalah.....';
+        $buku->status = 1;
+        $buku->save();
+
+        $buku = new Buku;
+        $buku->judul = 'Belajar Menulis';
+        $buku->jumlah_halaman= 100;
+        $buku->penerbit = 'Gramedia Pustaka';
+        $buku->synopsis = 'ini adalah.....';
+        $buku->status = 1;
+        $buku->save();
+
+        $buku = new Buku;
+        $buku->judul = 'Belajar Membaca';
+        $buku->jumlah_halaman= 100;
+        $buku->penerbit = 'Gramedia Pustaka';
+        $buku->synopsis = 'ini adalah.....';
+        $buku->status = 1;
+        $buku->save();
+
+        $buku = new Buku;
+        $buku->judul = 'Belajar Menghitung';
+        $buku->jumlah_halaman= 100;
+        $buku->penerbit = 'Gramedia Pustaka';
+        $buku->synopsis = 'ini adalah.....';
+        $buku->status = 1;
+        $buku->save();
     }
 }
